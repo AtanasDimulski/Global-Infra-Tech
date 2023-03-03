@@ -41,6 +41,6 @@ Example sorting by date and title in descending order
 6. GET to get filtered news go to localhost:3000/news/api/filtered there you can add query parameters to filter by date and title, you can filter by date that is greater 
 than the provided date in the query parameter, by date that is less than the provided date in the query parameter, and by title
 Example of a query that filters data based on title, date greather than and less than:
-#localhost:3000/news/api/filtered?title=Title&gteDate=2021-04-03&ltDate=2023-03-03
+localhost:3000/news/api/filtered?title=Title&gteDate=2021-04-03&ltDate=2023-03-03
 
 The accepted date format for get filtered news, creating new news and updating news is ISO 8601 date, YYYY-MM-DD
