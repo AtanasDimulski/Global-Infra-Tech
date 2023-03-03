@@ -14,7 +14,7 @@ const isISO8601Date = (input) => {
 }
 
 const isStringLong = (input) => {
-   return input.length <= 10;
+   return input.length <= 50;
 }
 
 module.exports = {
