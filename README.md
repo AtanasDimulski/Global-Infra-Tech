@@ -31,7 +31,7 @@ and add the following for example:
 }
 3. DELETE to delete a certain news record copy the id of that record and go to localhost:3000/news/api/ and add the id after /
 Example: 
-# localhost:3000/news/api/640247f6e88f476fa62dc792
+localhost:3000/news/api/640247f6e88f476fa62dc792
 4. GET to get all news go to localhost:3000/news/api 
 5. GET to get all news sorted got to localhost:3000/news/api/sorted as there you can add query parameters to sort by date add ?date=true, after the end of the URL, to sort
 by title add ?title=true to specify an order by which to sort add ?order=1 1 for ascending and -1 for descending if no order query parameter is provided the default is 
